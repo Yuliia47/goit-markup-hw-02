@@ -41,7 +41,7 @@ ul {
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1, 5;
   /* 150% */
   letter-spacing: 0.64px;
 }
@@ -51,7 +51,7 @@ ul {
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1, 2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -60,7 +60,7 @@ ul {
   /* Body */
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1, 5; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -70,7 +70,7 @@ ul {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1, 11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -84,7 +84,7 @@ ul {
   font-size: 20px;
 
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1, 2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -97,8 +97,11 @@ ul {
   font-size: 16px;
 
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1, 5; /* 150% */
   letter-spacing: 0.32px;
+}
+. portfolio {
+  background-color: #f4f4fd;
 }
 
 .portfolio-name {
@@ -110,7 +113,7 @@ ul {
   font-size: 36px;
 
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1, 11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -123,7 +126,7 @@ ul {
   font-size: 20px;
 
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1, 2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -135,6 +138,6 @@ ul {
   font-size: 16px;
 
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1, 5; /* 150% */
   letter-spacing: 0.32px;
 }
