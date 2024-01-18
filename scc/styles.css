@@ -11,8 +11,7 @@ ul {
   list-style-type: none;
 }
 
-.header{
-  
+.header {
 }
 .header-logo {
   color: var(--IRIS, #4d5ae5);
@@ -39,6 +38,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-nav-link:hover {
+  color: #404bbf;
+}
+.header-nav-link:focus {
+  color: #404bbf;
+}
 
 .address-list-link {
   color: var(--SLATE, #434455);
@@ -47,12 +52,15 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list-link:hover {#404bbf;}
-.address-list-link:focus {#404bbf;}
+.address-list-link:hover {
+  color: #404bbf;
+}
+.address-list-link:focus {
+  color: #404bbf;
+}
 
-
-.description{
-background-color: #2e2f42  ;
+.description {
+  background-color: #2e2f42;
 }
 
 .description-title {
@@ -66,7 +74,7 @@ background-color: #2e2f42  ;
 
 .description-button {
   color: var(--WHITE, #fff);
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   /* Button Text */
   font-size: 16px;
@@ -76,8 +84,12 @@ background-color: #2e2f42  ;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-.description-button:hover {background-color: #404BBF}
-.description-button:focus {background-color: #404BBF}
+.description-button:hover {
+  background-color: #404bbf;
+}
+.description-button:focus {
+  background-color: #404bbf;
+}
 
 .adventages {
 }
@@ -181,6 +193,36 @@ background-color: #2e2f42  ;
 
   font-size: 16px;
 
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.footer-link {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.7; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.word-footer-studio {
+  color: var(--CLOUD, #f4f4fd);
+}
+
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
