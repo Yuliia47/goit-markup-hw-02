@@ -11,6 +11,9 @@ ul {
   list-style-type: none;
 }
 
+.header{
+  
+}
 .header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
@@ -26,7 +29,7 @@ ul {
   color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.adress {
+.address {
   font-style: normal;
 }
 .header-nav-link {
@@ -44,29 +47,39 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list-link:hover{#404bbf;}
-.address-list-link:focus{#404bbf;}
+.address-list-link:hover {#404bbf;}
+.address-list-link:focus {#404bbf;}
+
+
+.description{
+background-color: #2e2f42  ;
+}
 
 .description-title {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .description-button {
   color: var(--WHITE, #fff);
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
+.description-button:hover {background-color: #404BBF}
+.description-button:focus {background-color: #404BBF}
 
-. adventages {
+.adventages {
 }
 
 .adventages-item-name {
@@ -86,6 +99,7 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
+
 .team {
   background-color: #f4f4fd;
 }
@@ -100,6 +114,7 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 .team-item {
   background-color: #ffffff;
 }
