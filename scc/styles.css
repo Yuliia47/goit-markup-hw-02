@@ -13,31 +13,24 @@ ul {
 
 .header-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
 
   font-weight: 700;
-  line-height: 1, 17; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.world-studio {
+.word-studio {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .header-nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0, 02em;
 }
 
@@ -45,7 +38,7 @@ ul {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0, 02em;
 }
 
@@ -68,12 +61,15 @@ ul {
   letter-spacing: 0.64px;
 }
 
+. adventages {
+}
+
 .adventages-item-name {
   color: var(--NAVY-BLUE, #2e2f42);
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1, 2; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -82,8 +78,11 @@ ul {
   /* Body */
   font-size: 16px;
   font-weight: 400;
-  line-height: 1, 5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+}
+. team {
+  background-color: #f4f4fd;
 }
 
 .team-name {
@@ -92,9 +91,11 @@ ul {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1, 11; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.team-item {#FFFFFF
 }
 
 .team-item-name {
@@ -106,7 +107,7 @@ ul {
   font-size: 20px;
 
   font-weight: 500;
-  line-height: 1, 2; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -119,7 +120,7 @@ ul {
   font-size: 16px;
 
   font-weight: 400;
-  line-height: 1, 5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 . portfolio {
@@ -135,7 +136,7 @@ ul {
   font-size: 36px;
 
   font-weight: 700;
-  line-height: 1, 11; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -148,7 +149,7 @@ ul {
   font-size: 20px;
 
   font-weight: 500;
-  line-height: 1, 2; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -160,6 +161,6 @@ ul {
   font-size: 16px;
 
   font-weight: 400;
-  line-height: 1, 5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
