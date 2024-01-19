@@ -17,7 +17,6 @@ ul {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
-
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
@@ -31,6 +30,7 @@ ul {
 .address {
   font-style: normal;
 }
+
 .header-nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -75,12 +75,9 @@ ul {
 .description-button {
   color: var(--WHITE, #fff);
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  /* 150% */
   letter-spacing: 0.64px;
   cursor: pointer;
 }
@@ -96,7 +93,6 @@ ul {
 
 .adventages-item-name {
   color: var(--NAVY-BLUE, #2e2f42);
-  /* Header 3 */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -105,7 +101,6 @@ ul {
 
 .adventages-item-text {
   color: var(--SLATE, #434455);
-  /* Body */
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
@@ -119,10 +114,9 @@ ul {
 .team-name {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-  /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -134,9 +128,6 @@ ul {
 .team-item-name {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-
-  /* Header 3 */
-
   font-size: 20px;
 
   font-weight: 500;
@@ -147,27 +138,19 @@ ul {
 .team-item-text {
   color: var(--SLATE, #434455);
   text-align: center;
-
-  /* Body */
-
   font-size: 16px;
-
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-. portfolio {
+.portfolio {
   background-color: #f4f4fd;
 }
 
 .portfolio-name {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-
-  /* Header 2 */
-
   font-size: 36px;
-
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
@@ -176,11 +159,7 @@ ul {
 
 .portfolio-item-name {
   color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Header 3 */
-
   font-size: 20px;
-
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
@@ -188,11 +167,7 @@ ul {
 
 .portfolio-item-text {
   color: var(--SLATE, #434455);
-
-  /* Body */
-
   font-size: 16px;
-
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
@@ -218,8 +193,6 @@ footer {
 
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
-
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
